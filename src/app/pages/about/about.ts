@@ -6,5 +6,8 @@ import { HlmButton } from '@spartan-ng/helm/button';
   imports: [HlmButton],
   templateUrl: './about.html',
   styleUrl: './about.css',
+  host: {
+    class: 'flex flex-col gap-6 w-fit',
+  },
 })
 export default class About {}
